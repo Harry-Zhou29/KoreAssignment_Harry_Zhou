@@ -1,7 +1,0 @@
-TRIM(FullName)=="NULL"||TRIM(FullName)=="NA"? NULL(DT_WSTR,50):(DT_WSTR,50)TRIM(FullName)
-TRIM(Age)=="NULL"||TRIM(Age)=="NA"? NULL(DT_I4):(DT_I4)TRIM(Age)
-TRIM(Email)=="NULL"||TRIM(Email)=="NA"? NULL(DT_WSTR,50):(DT_WSTR,50)TRIM(Email)
-TRIM(RegistrationDate)=="NULL"||TRIM(RegistrationDate)=="NA"? NULL(DT_DATE):(DT_DATE)TRIM(RegistrationDate)
-TRIM(LastLoginDate)=="NULL"||TRIM(LastLoginDate)=="NA"? NULL(DT_DATE):(DT_DATE)TRIM(LastLoginDate)
-TRIM(PurchaseTotal)=="NULL"||TRIM(PurchaseTotal)=="NA"? NULL(DT_DECIMAL,2):(DT_DECIMAL,2)TRIM(PurchaseTotal)
-TRIM(UserID)=="NULL"||TRIM(UserID)=="NA"? NULL(DT_I4):(DT_I4)TRIM(UserID)
