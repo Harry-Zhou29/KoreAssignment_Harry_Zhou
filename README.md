@@ -7,7 +7,7 @@ This SSIS solution is designed to perform an ETL (Extract, Transform, Load) proc
 - SQL Server 2019.
 - SQL Server Data Tools (SSDT) 2019.
 - Microsoft Visual Studio 2019 with SSIS packages.
-- The CSV file is located at: `E:\KoreAssignment_Harry_Zhou\Data source\User_Source_File`. Alternatively, you can find it in this GitHub Data Source repository.
+- The CSV file is located at: `E:\KoreAssignment_Harry_Zhou\Data_source\User_Source_File`. Alternatively, you can find it in this GitHub Data Source repository.
 
 ## Setup Instructions:
 1. Clone or download this repository to your local machine.
