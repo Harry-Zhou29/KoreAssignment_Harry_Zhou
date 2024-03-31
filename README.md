@@ -7,17 +7,17 @@ This SSIS solution is designed to perform an ETL (Extract, Transform, Load) proc
 - SQL Server 2019.
 - SQL Server Data Tools (SSDT) 2019.
 - Microsoft Visual Studio 2019 with SSIS packages.
-- The CSV file is located at: `E:\KoreAssignment_Harry_Zhou\Data source\User_Source_File`. Alternatively, you can find it in this GitHub repository.
+- The CSV file is located at: `E:\KoreAssignment_Harry_Zhou\Data source\User_Source_File`. Alternatively, you can find it in this GitHub Data Source repository.
 
 ## Setup Instructions:
 1. Clone or download this repository to your local machine.
 
 2. Open the solution file `KoreAssignment_Harry_Zhou.sln` in SQL Server Data Tools or Visual Studio.
 
-3. Follow the instructions in the "ETL Process with SSIS for Junior ETL/SSIS Engineer Home Task" document to create a database schema and initialize the baseline data.
+3. Download the SQL script from the Script folder and execute it in SQL Server to create a database schema and initialize the baseline data.
 
 ### Note
-
+The SQL script provided below represents the modifications made from the original task document.
 ```
 -- Modify Prod_Users table schema by adding NOT NULL constraints to certain columns.
 IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'prod.Users') AND type in (N'U'))
