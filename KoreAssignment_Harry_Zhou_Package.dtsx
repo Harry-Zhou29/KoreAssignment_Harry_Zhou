@@ -12,180 +12,11 @@
   DTS:MaxErrorCount="5"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="89"
-  DTS:VersionGUID="{7F3AE1EF-414F-4923-9545-8D086693BB41}">
+  DTS:VersionBuild="93"
+  DTS:VersionGUID="{9EBF0E4D-0851-4542-B7F1-9111F915E86B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Dirty Data CSV File Connection]"
-      DTS:CreationName="FLATFILE"
-      DTS:Description="Save dirty file to local disk"
-      DTS:DTSID="{1FF3DD56-2246-47CA-A098-55D85AB5AB7F}"
-      DTS:ObjectName="Dirty Data CSV File Connection">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="4105"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="Stg_Users_DirtyData">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="StgID"
-              DTS:DTSID="{B84E3C82-A8CB-4BF6-92DB-D18634C01AA2}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="UserID"
-              DTS:DTSID="{B525C31C-66D9-4A63-94A4-CDB888C1759F}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="255"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="FullName"
-              DTS:DTSID="{159F9455-64C6-4984-999A-E0CD8038DEA8}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Age"
-              DTS:DTSID="{ADDF5993-A89E-493D-9290-E0A0D94E5539}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="255"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Email"
-              DTS:DTSID="{3654A8BE-D57B-43E2-8BB6-FA4AC754ABCE}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="133"
-              DTS:TextQualified="True"
-              DTS:ObjectName="RegistrationDate"
-              DTS:DTSID="{B1B0B9E1-6531-47F4-BAB7-5B940C96EBD8}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="133"
-              DTS:TextQualified="True"
-              DTS:ObjectName="LastLoginDate"
-              DTS:DTSID="{7D9C9ED3-BED4-48C1-B437-008527E1B23D}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:DataType="5"
-              DTS:TextQualified="True"
-              DTS:ObjectName="PurchaseTotal"
-              DTS:DTSID="{44559E85-9D43-4026-93CE-C6D11D0AE4DA}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{E6B35A1B-01FE-4508-AEB3-84A716329B3D}"
-      DTS:ObjectName="Flat File Connection Manager">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="4105"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="E:\KoreAssignment_Harry_Zhou\Data source\User_Source_File1.csv">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="UserID"
-              DTS:DTSID="{58FB4E1A-A6A7-4DFB-9B5A-5FE94719F4D6}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="FullName"
-              DTS:DTSID="{72587703-4B46-49A4-805C-63BABD852994}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Age"
-              DTS:DTSID="{4003CF52-3EDD-4288-B49B-53D8AC4B1E56}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Email"
-              DTS:DTSID="{BC6C69C6-7E17-4310-A3CF-0C4D82C8323F}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="RegistrationDate"
-              DTS:DTSID="{A27E2A7E-2B60-4FC6-9EB8-1FBE310BCB34}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="LastLoginDate"
-              DTS:DTSID="{EC4C6013-4F19-4036-8B87-994ABEDC4F42}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="PurchaseTotal"
-              DTS:DTSID="{23066AF2-8B3D-4BF2-8D92-AB998A9E03DF}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[LocalHost.KoreAssignment_Harry_Zhou.sa]"
       DTS:CreationName="OLEDB"
@@ -199,24 +30,91 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6MCzCs6jpUmmmm72TLQBngAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC3y/N/KdPMCUJOWko5wiV1ojtcbgvegHDPja0RP91l2gAAAAAOgAAAAAIAACAAAAAtnysliqkNOcKmq/In2h1EQMVx+wSNkaAh325ZilQjAiAAAADMCGZo1pr8x2hTy5o7nsUpodNAi46E9xSlzAjC5ai/GUAAAAAoJ3Dd9zazKaKb9Po2N1i8/A85N155QmbX05vfT6JRl7ZbWMxUqRoxIXJmt1BmodZGVDp6sFuvOOF66o0m1AsD</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6MCzCs6jpUmmmm72TLQBngAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACGBSOO6o7OkAlT8AcSWdg1rNkL9knHVjb6jDoXTVgO6wAAAAAOgAAAAAIAACAAAADRAF4NHrh1mThTBI+Ls0e0oNorZUDYWEXiptfZHmLJriAAAACOPN2pZ4yCtg7ZFS+h/O0T7v/2j/B5Bn4ugQCuigc5J0AAAAAZtX6sporjp/Ma2iqk2ttgbqKvnpKE9swC7qorV0jM75jIC9crRuMX4JDhJRBbrP/ylktbfEuepkJuyRJk6btW</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[LocalHost.KoreAssignment_Harry_Zhou.sa 1]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{9D0E459D-8C00-4D7A-AE14-20A9F785751C}"
-      DTS:ObjectName="LocalHost.KoreAssignment_Harry_Zhou.sa 1">
+      DTS:refId="Package.ConnectionManagers[Source CSV File Connection]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Connect to CSV File"
+      DTS:DTSID="{E6B35A1B-01FE-4508-AEB3-84A716329B3D}"
+      DTS:ObjectName="Source CSV File Connection">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=.;User ID=sa;Initial Catalog=KoreAssignment_Harry_Zhou;Provider=SQLNCLI11.1;Application Name=SSIS-Package-{9D0E459D-8C00-4D7A-AE14-20A9F785751C}LocalHost.KoreAssignment_Harry_Zhou.sa 1;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6MCzCs6jpUmmmm72TLQBngAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADf5WSy9YRj42qYMz6Zrm9DD/7RClxzqpD+tY91JCsMOAAAAAAOgAAAAAIAACAAAADDtiJyaH40BnPwmq/ZmeeTmwL7DU5GPp+nMa6N7F0aDSAAAADr5eplkYeBOYM0a6YXv6WKDirXuStLTE2zNouJ9B5KZUAAAADyHGu2Vxii8stHVhrHqT/joXomLHYdIGPyy9W891Raid0fw9m1lwEs3Jh7DNHJe7bj6TJkmsyuNrC3QaaMUUbn</DTS:Password>
+          DTS:Format="Delimited"
+          DTS:LocaleID="4105"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="E:\KoreAssignment_Harry_Zhou\Data source\User_Source_File.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="UserID"
+              DTS:DTSID="{4D917C9B-1259-4422-8FD9-B215BA797B87}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="FullName"
+              DTS:DTSID="{75FC10F9-A4F7-48FF-AEA6-41FD77440DDB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Age"
+              DTS:DTSID="{C32D3220-00CE-421E-8BE9-16039E676CE9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Email"
+              DTS:DTSID="{47341A2C-FDCA-45C3-BA95-B0A83CE77629}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="RegistrationDate"
+              DTS:DTSID="{91F78197-E8AE-4B0F-9B92-009F8822F2A7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="LastLoginDate"
+              DTS:DTSID="{B99BD640-FE68-4391-90B1-C26B1F9A1D40}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PurchaseTotal"
+              DTS:DTSID="{2F7EDC93-036F-4BBE-972C-478CA0E407C9}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -4409,8 +4307,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               <connections>
                 <connection
                   refId="Package\Loading CSV file to Staging table\Staging table.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LocalHost.KoreAssignment_Harry_Zhou.sa 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.KoreAssignment_Harry_Zhou.sa 1]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.KoreAssignment_Harry_Zhou.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.KoreAssignment_Harry_Zhou.sa]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4554,8 +4452,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               <connections>
                 <connection
                   refId="Package\Loading CSV file to Staging table\User_CSV file.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager]"
+                  connectionManagerID="Package.ConnectionManagers[Source CSV File Connection]"
+                  connectionManagerRefId="Package.ConnectionManagers[Source CSV File Connection]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -4861,27 +4759,27 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="277,42"
-          Id="Package\Loading CSV file to Staging table"
-          TopLeft="194.166658951177,55.71428286786" />
-        <NodeLayout
           Size="289,42"
           Id="Package\Data Clean and Import to Prod Table"
           TopLeft="188.333325849639,184.785704845069" />
+        <NodeLayout
+          Size="277,42"
+          Id="Package\Loading CSV file to Staging table"
+          TopLeft="194.166658951177,55.71428286786" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="332.749992400408,97.71428286786">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,87.0714219772089"
+              EndConnector="0,87.071421977209"
               Start="0,0"
-              End="0,79.5714219772089">
+              End="0,79.571421977209">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,79.5714219772089" />
+                    End="0,79.571421977209" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4894,6 +4792,386 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
     </LayoutInfo>
   </Package>
   <TaskHost
+    design-time-name="Package\Data Clean and Import to Prod Table">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="229,42"
+          Id="Package\Data Clean and Import to Prod Table\Remove Duplicated Records"
+          TopLeft="273,67" />
+        <NodeLayout
+          Size="169,42"
+          Id="Package\Data Clean and Import to Prod Table\Save Dirty Data"
+          TopLeft="797,68" />
+        <NodeLayout
+          Size="181,42"
+          Id="Package\Data Clean and Import to Prod Table\Filter Clean Data"
+          TopLeft="567,67.142860558568" />
+        <NodeLayout
+          Size="175,42"
+          Id="Package\Data Clean and Import to Prod Table\Prod Data Source"
+          TopLeft="423,143" />
+        <NodeLayout
+          Size="139,42"
+          Id="Package\Data Clean and Import to Prod Table\Merge Join"
+          TopLeft="610,333" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Data Clean and Import to Prod Table\Making Update"
+          TopLeft="99,399" />
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Data Clean and Import to Prod Table\Sort Prod Data"
+          TopLeft="432,217" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Data Clean and Import to Prod Table\Staging Table"
+          TopLeft="57,66" />
+        <NodeLayout
+          Size="169,42"
+          Id="Package\Data Clean and Import to Prod Table\Sort Clean Data"
+          TopLeft="739,215" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Data Clean and Import to Prod Table\Making Insert"
+          TopLeft="99,327" />
+        <NodeLayout
+          Size="181,42"
+          Id="Package\Data Clean and Import to Prod Table\Conditional Split"
+          TopLeft="354,331" />
+        <EdgeLayout
+          Id="Package\Data Clean and Import to Prod Table.Paths[OLE DB Source Output1]"
+          TopLeft="512,185">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,32"
+              Start="0,0"
+              End="0,24.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Clean and Import to Prod Table.Paths[OLE DB Source Output]"
+          TopLeft="214,87.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="59,0"
+              Start="0,0"
+              End="51.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="51.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Clean and Import to Prod Table.Paths[Merge Join Output]"
+          TopLeft="610,353">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-75,0"
+              Start="0,0"
+              End="-67.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-67.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Clean and Import to Prod Table.Paths[MakeUpdateData]"
+          TopLeft="444.5,373">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-267,26"
+              Start="0,0"
+              End="-267,18.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,9" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,9"
+                    Point2="0,13"
+                    Point3="-4,13" />
+                  <mssgle:LineSegment
+                    End="-263,13" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-263,13"
+                    Point2="-267,13"
+                    Point3="-267,17" />
+                  <mssgle:LineSegment
+                    End="-267,18.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-171.463359375,18,75.92671875,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Clean and Import to Prod Table.Paths[MakeInsertData]"
+          TopLeft="354,350">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-98,0"
+              Start="0,0"
+              End="-90.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-90.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-80.463359375,5,70.42671875,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Clean and Import to Prod Table.Paths[DirtyData]"
+          TopLeft="748,88.571430279284">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="49,0"
+              Start="0,0"
+              End="41.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="41.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-0.373359375000003,5,42.24671875,11.3310546875"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Clean and Import to Prod Table.Paths[CleanData]"
+          TopLeft="657.5,109.142860558568">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="166,105.857139441432"
+              Start="0,0"
+              End="166,98.357139441432">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,48.928569720716" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,48.928569720716"
+                    Point2="0,52.928569720716"
+                    Point3="4,52.928569720716" />
+                  <mssgle:LineSegment
+                    End="162,52.928569720716" />
+                  <mssgle:CubicBezierSegment
+                    Point1="162,52.928569720716"
+                    Point2="166,52.928569720716"
+                    Point3="166,56.928569720716" />
+                  <mssgle:LineSegment
+                    End="166,98.357139441432" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="59.96912109375,57.928569720716,46.0617578125,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Clean and Import to Prod Table.Paths[Sort Output2]"
+          TopLeft="513.5,259">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="144.166666666667,74"
+              Start="0,0"
+              End="144.166666666667,66.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,39.8947368421053" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,39.8947368421053"
+                    Point2="0,43.8947368421053"
+                    Point3="4,43.8947368421053" />
+                  <mssgle:LineSegment
+                    End="140.166666666667,43.8947368421053" />
+                  <mssgle:CubicBezierSegment
+                    Point1="140.166666666667,43.8947368421053"
+                    Point2="144.166666666667,43.8947368421053"
+                    Point3="144.166666666667,47.8947368421053" />
+                  <mssgle:LineSegment
+                    End="144.166666666667,66.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Clean and Import to Prod Table.Paths[Sort Output1]"
+          TopLeft="823.5,257">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-122.166666666667,76"
+              Start="0,0"
+              End="-122.166666666667,68.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41.0810810810811" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,41.0810810810811"
+                    Point2="0,45.0810810810811"
+                    Point3="-4,45.0810810810811" />
+                  <mssgle:LineSegment
+                    End="-118.166666666667,45.0810810810811" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-118.166666666667,45.0810810810811"
+                    Point2="-122.166666666667,45.0810810810811"
+                    Point3="-122.166666666667,49.0810810810811" />
+                  <mssgle:LineSegment
+                    End="-122.166666666667,68.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Clean and Import to Prod Table.Paths[Sort Output]"
+          TopLeft="502,88.071430279284">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="65,0"
+              Start="0,0"
+              End="57.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="57.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Clean and Import to Prod Table\Save Dirty Data">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Clean and Import to Prod Table\Prod Data Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Clean and Import to Prod Table\Staging Table">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Clean and Import to Prod Table\Making Insert">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
     design-time-name="Package\Loading CSV file to Staging table">
     <LayoutInfo>
       <GraphLayout
@@ -4905,7 +5183,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
         <NodeLayout
           Size="157,42"
           Id="Package\Loading CSV file to Staging table\Staging table"
-          TopLeft="715.833304888673,73.499997675419" />
+          TopLeft="716.666638188893,73.499997675419" />
         <NodeLayout
           Size="240,42"
           Id="Package\Loading CSV file to Staging table\Convert null value script"
@@ -4964,14 +5242,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="33.4999919533732,0"
+              EndConnector="34.3333252535925,0"
               Start="0,0"
-              End="25.9999919533732,0">
+              End="26.8333252535925,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="25.9999919533732,0" />
+                    End="26.8333252535925,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4985,386 +5263,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\Loading CSV file to Staging table\Staging table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Data Clean and Import to Prod Table">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="181,42"
-          Id="Package\Data Clean and Import to Prod Table\Filter Clean Data"
-          TopLeft="567,67.142860558568" />
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Data Clean and Import to Prod Table\Staging Table"
-          TopLeft="57,66" />
-        <NodeLayout
-          Size="229,42"
-          Id="Package\Data Clean and Import to Prod Table\Remove Duplicated Records"
-          TopLeft="273,67" />
-        <EdgeLayout
-          Id="Package\Data Clean and Import to Prod Table.Paths[OLE DB Source Output]"
-          TopLeft="214,87.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="59,0"
-              Start="0,0"
-              End="51.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="51.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Clean and Import to Prod Table.Paths[Sort Output]"
-          TopLeft="502,88.071430279284">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="65,0"
-              Start="0,0"
-              End="57.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="57.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="175,42"
-          Id="Package\Data Clean and Import to Prod Table\Prod Data Source"
-          TopLeft="423,143" />
-        <NodeLayout
-          Size="169,42"
-          Id="Package\Data Clean and Import to Prod Table\Sort Clean Data"
-          TopLeft="739,215" />
-        <NodeLayout
-          Size="163,42"
-          Id="Package\Data Clean and Import to Prod Table\Sort Prod Data"
-          TopLeft="432,217" />
-        <EdgeLayout
-          Id="Package\Data Clean and Import to Prod Table.Paths[OLE DB Source Output1]"
-          TopLeft="512,185">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,32"
-              Start="0,0"
-              End="0,24.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="139,42"
-          Id="Package\Data Clean and Import to Prod Table\Merge Join"
-          TopLeft="610,333" />
-        <EdgeLayout
-          Id="Package\Data Clean and Import to Prod Table.Paths[Sort Output1]"
-          TopLeft="823.5,257">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-122.166666666667,76"
-              Start="0,0"
-              End="-122.166666666667,68.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,41.0810810810811" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,41.0810810810811"
-                    Point2="0,45.0810810810811"
-                    Point3="-4,45.0810810810811" />
-                  <mssgle:LineSegment
-                    End="-118.166666666667,45.0810810810811" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-118.166666666667,45.0810810810811"
-                    Point2="-122.166666666667,45.0810810810811"
-                    Point3="-122.166666666667,49.0810810810811" />
-                  <mssgle:LineSegment
-                    End="-122.166666666667,68.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Clean and Import to Prod Table.Paths[Sort Output2]"
-          TopLeft="513.5,259">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="144.166666666667,74"
-              Start="0,0"
-              End="144.166666666667,66.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,39.8947368421053" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,39.8947368421053"
-                    Point2="0,43.8947368421053"
-                    Point3="4,43.8947368421053" />
-                  <mssgle:LineSegment
-                    End="140.166666666667,43.8947368421053" />
-                  <mssgle:CubicBezierSegment
-                    Point1="140.166666666667,43.8947368421053"
-                    Point2="144.166666666667,43.8947368421053"
-                    Point3="144.166666666667,47.8947368421053" />
-                  <mssgle:LineSegment
-                    End="144.166666666667,66.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="181,42"
-          Id="Package\Data Clean and Import to Prod Table\Conditional Split"
-          TopLeft="354,331" />
-        <EdgeLayout
-          Id="Package\Data Clean and Import to Prod Table.Paths[Merge Join Output]"
-          TopLeft="610,353">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-75,0"
-              Start="0,0"
-              End="-67.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-67.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Data Clean and Import to Prod Table\Making Insert"
-          TopLeft="99,327" />
-        <EdgeLayout
-          Id="Package\Data Clean and Import to Prod Table.Paths[MakeInsertData]"
-          TopLeft="354,350">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-98,0"
-              Start="0,0"
-              End="-90.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-90.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-80.463359375,5,70.42671875,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Data Clean and Import to Prod Table\Making Update"
-          TopLeft="99,399" />
-        <EdgeLayout
-          Id="Package\Data Clean and Import to Prod Table.Paths[MakeUpdateData]"
-          TopLeft="444.5,373">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-267,26"
-              Start="0,0"
-              End="-267,18.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,9" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,9"
-                    Point2="0,13"
-                    Point3="-4,13" />
-                  <mssgle:LineSegment
-                    End="-263,13" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-263,13"
-                    Point2="-267,13"
-                    Point3="-267,17" />
-                  <mssgle:LineSegment
-                    End="-267,18.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-171.463359375,18,75.92671875,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Clean and Import to Prod Table.Paths[CleanData]"
-          TopLeft="657.5,109.142860558568">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="166,105.857139441432"
-              Start="0,0"
-              End="166,98.357139441432">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,48.928569720716" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,48.928569720716"
-                    Point2="0,52.928569720716"
-                    Point3="4,52.928569720716" />
-                  <mssgle:LineSegment
-                    End="162,52.928569720716" />
-                  <mssgle:CubicBezierSegment
-                    Point1="162,52.928569720716"
-                    Point2="166,52.928569720716"
-                    Point3="166,56.928569720716" />
-                  <mssgle:LineSegment
-                    End="166,98.357139441432" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="59.96912109375,57.928569720716,46.0617578125,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="169,42"
-          Id="Package\Data Clean and Import to Prod Table\Save Dirty Data"
-          TopLeft="797,68" />
-        <EdgeLayout
-          Id="Package\Data Clean and Import to Prod Table.Paths[DirtyData]"
-          TopLeft="748,88.571430279284">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="49,0"
-              Start="0,0"
-              End="41.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="41.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-0.373359375000003,5,42.24671875,11.3310546875"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Clean and Import to Prod Table\Staging Table">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Clean and Import to Prod Table\Prod Data Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Clean and Import to Prod Table\Making Insert">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Clean and Import to Prod Table\Save Dirty Data">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
