@@ -1,0 +1,9 @@
+Input string was not in a correct format.
+
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at ScriptMain.Input0_ProcessInputRow(Input0Buffer Row)
+   at UserComponent.Input0_ProcessInput(Input0Buffer Buffer)
+   at UserComponent.ProcessInput(Int32 InputID, String InputName, PipelineBuffer Buffer, OutputNameMap OutputMap)
+   at Microsoft.SqlServer.Dts.Pipeline.ScriptComponent.ProcessInput(Int32 InputID, PipelineBuffer buffer)
+   at Microsoft.SqlServer.Dts.Pipeline.ScriptComponentHost.ProcessInput(Int32 inputID, PipelineBuffer buffer)
