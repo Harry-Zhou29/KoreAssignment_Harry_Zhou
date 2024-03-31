@@ -72,6 +72,7 @@ END
 6. Once the package execution completes successfully, verify the data in the production SQL Server table to ensure that the ETL process was executed correctly.
 
 ## Additional Notes:
+- Before loading the CSV file into the Staging table, a validation process is applied to ensure the CSV file format is correct. If there are any changes to the column names or additional columns in the CSV file, this validation process will automatically generate log files in the Logs repository. These log files provide detailed information for review and verification purposes.
 - During the loading of the CSV file into the Staging table, the following conversions are applied:
 
 1. **Age Column:**
