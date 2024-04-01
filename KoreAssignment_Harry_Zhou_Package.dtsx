@@ -12,8 +12,8 @@
   DTS:MaxErrorCount="5"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="116"
-  DTS:VersionGUID="{C57984FF-C32C-4981-8927-6FBAA8E11408}">
+  DTS:VersionBuild="120"
+  DTS:VersionGUID="{99163365-4915-404D-BF1C-256D7ADC3DB9}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -30,7 +30,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6MCzCs6jpUmmmm72TLQBngAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABnLzja9e2yp6cJN6vomAih/C7FFDNuE7FAePy7F+gVeQAAAAAOgAAAAAIAACAAAAAN+AGOVcBqJCXGekmuxFOgZ9+4MgPEJyFtCVjIXdPO3CAAAABd9kITjLG8VPdCGoVKIsQNRvnq1E7y/k77zhKdn5sRvEAAAAB7HT/2/W+gF0YvGzIWKkuFVOyjN0+gbbVLmxevCff1N2Bj/YeVa46C4coqQGIU+ZTSlgMzxzg3qnQU/XfNE/TR</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6MCzCs6jpUmmmm72TLQBngAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADbeAPGRuaWbCRDp+1ywMdE24lrE9mvJNon4K2V4f7pGAAAAAAOgAAAAAIAACAAAABB7GCZoo00yjStpHf59FzztlJnCO8OB2x5Mxk/qDEcxiAAAACr8SIhcdbiXirDEt0ld4QAO054hATnZ23BMLE+eCsdYUAAAABR5vN7DYqJAZfV9CK1HfkKi5YzSSsOQ1ScpdyIOevMdIdOWxHU+aBSVgCGEJc9LhIpgsdvVoPDx588SZkFZs4+</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -124,12 +124,102 @@
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
+      DTS:DTSID="{947108DC-2C78-4557-979A-173D5346DE5E}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="ColumnCount">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
       DTS:DTSID="{1CE9145F-3F4F-4428-B775-7557AF0CA747}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="FilePath">
       <DTS:VariableValue
         DTS:DataType="8">E:\KoreAssignment_Harry_Zhou\Data_source\User_Source_File.csv</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{FB2D7485-4832-4146-B658-B9917BB5AC4C}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="HasAgeColumn">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{3003698B-8821-42B4-A7B4-E13AC89022EE}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="HasEmailColumn">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{339F4EF3-4627-446A-BCDD-05425BF58708}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="HasFullNameColumn">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{0E0E5551-57FD-4979-864F-5A0C0ED8AE73}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="HasIDColumn">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{745C99C7-10CB-4240-BF98-C0B9A1D4697F}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="HasLastLoginDateColumn">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{C2B3AD1D-A8D7-4888-A885-9355397D0884}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="HasPurchaseTotalColumn">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{CA229076-BCC0-4787-8689-9D5A13DE2AB3}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="HasRecordLastUpdatedColumn">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{8B5915B7-5CA7-48D6-B340-C4347386DC72}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="HasRegistrationDateColumn">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{396B01D7-97DE-4447-AA85-B9A7CC77D87E}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="HasUserIDColumn">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -2829,6 +2919,728 @@ Where [UserID] = ?</property>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
+      DTS:refId="Package\Get The Database Schema"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{D170200C-5CA7-41C0-A40D-6362E6C07CF4}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Get The Database Schema"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{B32ABB5D-34B0-4AA3-A819-CB4AC45804C2}"
+          SQLTask:SqlStatementSource="SELECT&#xA;    COUNT(*) AS ColumnCount,&#xA;    COUNT(CASE WHEN [Column_name] = N'ID' THEN 1 END) AS HasIDColumn,&#xA;    COUNT(CASE WHEN [Column_name] = N'UserID' THEN 1 END) AS HasUserIDColumn,&#xA;&#x9;COUNT(CASE WHEN [Column_name] = N'FullName' THEN 1 END) AS HasFullNameColumn,&#xA;&#x9;COUNT(CASE WHEN [Column_name] = N'Age' THEN 1 END) AS HasAgeColumn,&#xA;&#x9;COUNT(CASE WHEN [Column_name] = N'Email' THEN 1 END) AS HasEmailColumn,&#xA;&#x9;COUNT(CASE WHEN [Column_name] = N'RegistrationDate' THEN 1 END) AS HasRegistrationDateColumn,&#xA;&#x9;COUNT(CASE WHEN [Column_name] = N'LastLoginDate' THEN 1 END) AS HasLastLoginDateColumn,&#xA;&#x9;COUNT(CASE WHEN [Column_name] = N'PurchaseTotal' THEN 1 END) AS HasPurchaseTotalColumn,&#xA;&#x9;COUNT(CASE WHEN [Column_name] = N'RecordLastUpdated' THEN 1 END) AS HasRecordLastUpdatedColumn&#xA;FROM INFORMATION_SCHEMA.COLUMNS&#xA;WHERE TABLE_SCHEMA='prod' AND TABLE_NAME='Users';"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="ColumnCount"
+            SQLTask:DtsVariableName="User::ColumnCount" />
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="HasIDColumn"
+            SQLTask:DtsVariableName="User::HasIDColumn" />
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="HasUserIDColumn"
+            SQLTask:DtsVariableName="User::HasUserIDColumn" />
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="HasFullNameColumn"
+            SQLTask:DtsVariableName="User::HasFullNameColumn" />
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="HasAgeColumn"
+            SQLTask:DtsVariableName="User::HasAgeColumn" />
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="HasEmailColumn"
+            SQLTask:DtsVariableName="User::HasEmailColumn" />
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="HasRegistrationDateColumn"
+            SQLTask:DtsVariableName="User::HasRegistrationDateColumn" />
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="HasLastLoginDateColumn"
+            SQLTask:DtsVariableName="User::HasLastLoginDateColumn" />
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="HasPurchaseTotalColumn"
+            SQLTask:DtsVariableName="User::HasPurchaseTotalColumn" />
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="HasRecordLastUpdatedColumn"
+            SQLTask:DtsVariableName="User::HasRecordLastUpdatedColumn" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Output Error Log"
+      DTS:CreationName="Microsoft.ScriptTask"
+      DTS:Description="Script Task"
+      DTS:DTSID="{4D1A17AC-D02F-4860-97B7-046074DE99DF}"
+      DTS:ExecutableType="Microsoft.ScriptTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Output Error Log"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ScriptProject
+          Name="ST_a7b416da701f4ca5b83cfc3eb51a6462"
+          VSTAMajorVersion="15"
+          VSTAMinorVersion="0"
+          Language="CSharp">
+          <ProjectItem
+            Name="Properties\Resources.resx"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></ProjectItem>
+          <ProjectItem
+            Name="ST_a7b416da701f4ca5b83cfc3eb51a6462.csproj"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{299a11aa-4c8e-45b1-a448-d8a0d6a067f4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_a7b416da701f4ca5b83cfc3eb51a6462</RootNamespace>
+    <AssemblyName>ST_a7b416da701f4ca5b83cfc3eb51a6462</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="ScriptTask" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" DebugInfoCommandLine="" DebugInfoWorkingDir="" IconImageList="" />
+        <Host Name="ScriptTask" GeneratedNamespace="$safeprojectname" IconIndex=""></Host>
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST150</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_a7b416da701f4ca5b83cfc3eb51a6462.Properties.Settings.get_Default():ST_a7b416da701f4ca5b83cfc3eb51a6462.Properties.Sett" +
+    "ings")]
+
+namespace ST_a7b416da701f4ca5b83cfc3eb51a6462.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
+            Name="ScriptMain.cs"
+            Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
+/* The Script Task allows you to perform virtually any operation that can be accomplished in
+ * a .Net application within the context of an Integration Services control flow. 
+ * 
+ * Expand the other regions which have "Help" prefixes for examples of specific ways to use
+ * Integration Services features within this script task. */
+#endregion
+
+
+#region Namespaces
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Runtime;
+using System.Windows.Forms;
+using System.IO;
+#endregion
+
+namespace ST_a7b416da701f4ca5b83cfc3eb51a6462
+{
+    /// <summary>
+    /// ScriptMain is the entry point class of the script.  Do not change the name, attributes,
+    /// or parent of this class.
+    /// </summary>
+	[Microsoft.SqlServer.Dts.Tasks.ScriptTask.SSISScriptTaskEntryPointAttribute]
+	public partial class ScriptMain : Microsoft.SqlServer.Dts.Tasks.ScriptTask.VSTARTScriptObjectModelBase
+	{
+        #region Help:  Using Integration Services variables and parameters in a script
+        /* To use a variable in this script, first ensure that the variable has been added to 
+         * either the list contained in the ReadOnlyVariables property or the list contained in 
+         * the ReadWriteVariables property of this script task, according to whether or not your
+         * code needs to write to the variable.  To add the variable, save this script, close this instance of
+         * Visual Studio, and update the ReadOnlyVariables and 
+         * ReadWriteVariables properties in the Script Transformation Editor window.
+         * To use a parameter in this script, follow the same steps. Parameters are always read-only.
+         * 
+         * Example of reading from a variable:
+         *  DateTime startTime = (DateTime) Dts.Variables["System::StartTime"].Value;
+         * 
+         * Example of writing to a variable:
+         *  Dts.Variables["User::myStringVariable"].Value = "new value";
+         * 
+         * Example of reading from a package parameter:
+         *  int batchId = (int) Dts.Variables["$Package::batchId"].Value;
+         *  
+         * Example of reading from a project parameter:
+         *  int batchId = (int) Dts.Variables["$Project::batchId"].Value;
+         * 
+         * Example of reading from a sensitive project parameter:
+         *  int batchId = (int) Dts.Variables["$Project::batchId"].GetSensitiveValue();
+         * */
+
+        #endregion
+
+        #region Help:  Firing Integration Services events from a script
+        /* This script task can fire events for logging purposes.
+         * 
+         * Example of firing an error event:
+         *  Dts.Events.FireError(18, "Process Values", "Bad value", "", 0);
+         * 
+         * Example of firing an information event:
+         *  Dts.Events.FireInformation(3, "Process Values", "Processing has started", "", 0, ref fireAgain)
+         * 
+         * Example of firing a warning event:
+         *  Dts.Events.FireWarning(14, "Process Values", "No values received for input", "", 0);
+         * */
+        #endregion
+
+        #region Help:  Using Integration Services connection managers in a script
+        /* Some types of connection managers can be used in this script task.  See the topic 
+         * "Working with Connection Managers Programatically" for details.
+         * 
+         * Example of using an ADO.Net connection manager:
+         *  object rawConnection = Dts.Connections["Sales DB"].AcquireConnection(Dts.Transaction);
+         *  SqlConnection myADONETConnection = (SqlConnection)rawConnection;
+         *  //Use the connection in some code here, then release the connection
+         *  Dts.Connections["Sales DB"].ReleaseConnection(rawConnection);
+         *
+         * Example of using a File connection manager
+         *  object rawConnection = Dts.Connections["Prices.zip"].AcquireConnection(Dts.Transaction);
+         *  string filePath = (string)rawConnection;
+         *  //Use the connection in some code here, then release the connection
+         *  Dts.Connections["Prices.zip"].ReleaseConnection(rawConnection);
+         * */
+        #endregion
+
+
+		/// <summary>
+        /// This method is called when this script task executes in the control flow.
+        /// Before returning from this method, set the value of Dts.TaskResult to indicate success or failure.
+        /// To open Help, press F1.
+        /// </summary>
+		public void Main()
+		{
+            try
+            {
+                // Access variables containing validation results
+                int columnCount = Convert.ToInt32(Dts.Variables["User_ColumnCount"].Value); // Assuming the variable name is "User_ColumnCount"
+                int hasIDColumn = Convert.ToInt32(Dts.Variables["HasIDColumn"].Value); // Assuming the variable name is "HasIDColumn"
+                int hasUserIDColumn = Convert.ToInt32(Dts.Variables["HasUserIDColumn"].Value); // Assuming the variable name is "HasUserIDColumn"
+                int hasFullNameColumn = Convert.ToInt32(Dts.Variables["HasFullNameColumn"].Value); // Assuming the variable name is "HasFullNameColumn"
+                int hasAgeColumn = Convert.ToInt32(Dts.Variables["HasAgeColumn"].Value); // Assuming the variable name is "HasAgeColumn"
+                int hasEmailColumn = Convert.ToInt32(Dts.Variables["HasEmailColumn"].Value); // Assuming the variable name is "HasEmailColumn"
+                int hasRegistrationDateColumn = Convert.ToInt32(Dts.Variables["HasRegistrationDateColumn"].Value); // Assuming the variable name is "HasRegistrationDateColumn"
+                int hasLastLoginDateColumn = Convert.ToInt32(Dts.Variables["HasLastLoginDateColumn"].Value); // Assuming the variable name is "HasLastLoginDateColumn"
+                int hasPurchaseTotalColumn = Convert.ToInt32(Dts.Variables["HasPurchaseTotalColumn"].Value); // Assuming the variable name is "HasPurchaseTotalColumn"
+                int hasRecordLastUpdatedColumn = Convert.ToInt32(Dts.Variables["HasRecordLastUpdatedColumn"].Value); // Assuming the variable name is "HasRecordLastUpdatedColumn"
+
+                // Construct the error message
+                string errorMessage = $"Schema validation failed!" + Environment.NewLine +
+                                      $"Expected column count: 9" + Environment.NewLine +
+                                      $"Actual column count: {columnCount}" + Environment.NewLine +
+                                      $"HasIDColumn: {hasIDColumn}, HasUserIDColumn: {hasUserIDColumn}, HasFullNameColumn: {hasFullNameColumn}, HasAgeColumn: {hasAgeColumn}, HasEmailColumn: {hasEmailColumn}, HasRegistrationDateColumn: {hasRegistrationDateColumn}, HasLastLoginDateColumn: {hasLastLoginDateColumn}, HasPurchaseTotalColumn: {hasPurchaseTotalColumn}, HasRecordLastUpdatedColumn: {hasRecordLastUpdatedColumn}";
+
+                // Implement logging (using a file)
+                string logFilePath = @"E:\KoreAssignment_Harry_Zhou\Logs\Database_schema_validation_log.txt";
+                using (StreamWriter logFile = File.AppendText(logFilePath))
+                {
+                    logFile.WriteLine(errorMessage);
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log error if logging fails
+                Dts.Events.FireError(0, "Error Logging", ex.Message, "", 0);
+                Dts.TaskResult = (int)ScriptResults.Failure;
+                return;
+            }
+
+            Dts.TaskResult = (int)ScriptResults.Success;
+		}
+
+        #region ScriptResults declaration
+        /// <summary>
+        /// This enum provides a convenient shorthand within the scope of this class for setting the
+        /// result of the script.
+        /// 
+        /// This code was generated automatically.
+        /// </summary>
+        enum ScriptResults
+        {
+            Success = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Success,
+            Failure = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Failure
+        };
+        #endregion
+
+	}
+}]]></ProjectItem>
+          <ProjectItem
+            Name="Project"
+            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>ST_a7b416da701f4ca5b83cfc3eb51a6462</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>ST_a7b416da701f4ca5b83cfc3eb51a6462</msb:DisplayName>
+    <msb:ProjectId>{D898F7D6-2511-4F25-AE94-DF025FE6624F}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="ST_a7b416da701f4ca5b83cfc3eb51a6462.csproj" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+    <msb:File Include="ScriptMain.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_a7b416da701f4ca5b83cfc3eb51a6462")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_a7b416da701f4ca5b83cfc3eb51a6462")]
+[assembly: AssemblyCopyright("Copyright @  2024")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Resources.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_a7b416da701f4ca5b83cfc3eb51a6462.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
+    "rceManager")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_a7b416da701f4ca5b83cfc3eb51a6462.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
+    "fo")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_a7b416da701f4ca5b83cfc3eb51a6462.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
+    "):Void")]
+
+namespace ST_a7b416da701f4ca5b83cfc3eb51a6462.Properties {
+    
+    
+    /// <summary>
+    ///   A strongly-typed resource class, for looking up localized strings, etc.
+    /// </summary>
+    // This class was auto-generated by the StronglyTypedResourceBuilder
+    // class via a tool like ResGen or Visual Studio.
+    // To add or remove a member, edit your .ResX file then rerun ResGen
+    // with the /str option, or rebuild your VS project.
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    internal class Resources {
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources() {
+        }
+        
+        /// <summary>
+        ///   Returns the cached ResourceManager instance used by this class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if ((resourceMan == null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ST_a7b416da701f4ca5b83cfc3eb51a6462.Properties.Resources", typeof(Resources).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+        
+        /// <summary>
+        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   resource lookups using this strongly typed resource class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <BinaryItem
+            Name="ST_a7b416da701f4ca5b83cfc3eb51a6462.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAFAQCmYAAAAAAAAAAOAAIiALATAAABYAAAAIAAAAAAAA0jUA
+AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAIA1AABPAAAAAEAAAHgEAAAAAAAAAAAAAAAAAAAA
+AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAA2BUAAAAgAAAAFgAAAAIA
+AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAHgEAAAAQAAAAAYAAAAYAAAAAAAAAAAAAAAAAABAAABA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAHgAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAC0
+NQAAAAAAAEgAAAACAAUAWCMAAHARAAABAAAAAAAAAMg0AAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAABswCABfAgAAAQAAEQIoEAAACm8RAAAKcgEAAHBvEgAACm8T
+AAAKKBQAAAoKAigQAAAKbxEAAApyIwAAcG8SAAAKbxMAAAooFAAACgsCKBAAAApvEQAACnI7AABw
+bxIAAApvEwAACigUAAAKDAIoEAAACm8RAAAKclsAAHBvEgAACm8TAAAKKBQAAAoNAigQAAAKbxEA
+AApyfwAAcG8SAAAKbxMAAAooFAAAChMEAigQAAAKbxEAAApymQAAcG8SAAAKbxMAAAooFAAAChMF
+AigQAAAKbxEAAApytwAAcG8SAAAKbxMAAAooFAAAChMGAigQAAAKbxEAAApy6wAAcG8SAAAKbxMA
+AAooFAAAChMHAigQAAAKbxEAAApyGQEAcG8SAAAKbxMAAAooFAAAChMIAigQAAAKbxEAAApyRwEA
+cG8SAAAKbxMAAAooFAAAChMJHY0eAAABJRZyfQEAcKIlFygVAAAKoiUYcrEBAHCiJRkoFQAACqIl
+GnLjAQBwBowgAAABKBYAAAqiJRsoFQAACqIlHHIVAgBwHwmNEwAAASUWB4wgAAABoiUXCIwgAAAB
+oiUYCYwgAAABoiUZEQSMIAAAAaIlGhEFjCAAAAGiJRsRBowgAAABoiUcEQeMIAAAAaIlHREIjCAA
+AAGiJR4RCYwgAAABoigXAAAKoigYAAAKEwpy2gMAcCgZAAAKEwsRCxEKbxoAAAreDBELLAcRC28b
+AAAK3N40EwwCKBAAAApvHAAAChZyZQQAcBEMbx0AAApygQQAcBZvHgAACiYCKBAAAAoXbx8AAAre
+DAIoEAAAChZvHwAACioAQTQAAAIAAAAFAgAACwAAABACAAAMAAAAAAAAAAAAAAAAAAAAHgIAAB4C
+AAA0AAAAEAAAAR4CKCAAAAoqHgIoIQAACiqufgEAAAQtHnKDBABw0AMAAAIoIgAACm8jAAAKcyQA
+AAqAAQAABH4BAAAEKhp+AgAABCoeAoACAAAEKhp+AwAABCoeAiglAAAKKi5zCAAABoADAAAEKgAA
+QlNKQgEAAQAAAAAADAAAAHY0LjAuMzAzMTkAAAAABQBsAAAANAQAACN+AACgBAAAIAYAACNTdHJp
+bmdzAAAAAMAKAAD4BAAAI1VTALgPAAAQAAAAI0dVSUQAAADIDwAAqAEAACNCbG9iAAAAAAAAAAIA
+AAFXHaIBCQMAAAD6ATMAFgAAAQAAACcAAAAFAAAABgAAAAkAAAABAAAAJQAAAAIAAAAQAAAAAQAA
+AAIAAAADAAAABAAAAAEAAAAEAAAAAQAAAAEAAAAAAMADAQAAAAAABgByAtAEBgABA9AEBgC+Ab0E
+DwBEBQAABgDrAT4EBgBVAj4EBgA2Aj4EBgDoAj4EBgCSAj4EBgCrAj4EBgACAj4EBgAdAi8DCgDG
+Am8DCgA1AW8DBgCOBDYABgBQBPEDBgD4A/EDBgChAb0EBgDQBfEDBgBqBPAEBgBaBCkEDgBxAaoD
+DgDSAaoDDgBRARQEBgCGAdAECgCYA28DEgCGBcoAEgCMAMoABgD+BfEDBgBJA/EDBgDyBfEDBgAD
+APEDBgDFADYABgCbBDYABgCVAPEDCgB6BG8DBgAAAfEDBgChAPEDBgAVBj4EAAAAAC0AAAAAAAEA
+AQABABAACQQJADkAAQABAAAAEAD3BFMFTQABAAMAAAEQAJAFUwVhAAMABwADAQAAqQUAAEUABAAK
+ABEA/QOpABEAJQGtABEAcACxAAYGXwC1AFaAmQW4AFaABQG4AFAgAAAAAIYADwQGAAEA8CIAAAAA
+hhiwBAYAAQD4IgAAAACDGLAEBgABAAAjAAAAAJMIZgS8AAEALCMAAAAAkwgNAcEAAQAzIwAAAACT
+CBkBxgABADsjAAAAAJYI1wXMAAIAQiMAAAAAhhiwBAYAAgBKIwAAAACRGLYE0QACAAAAAQApAwkA
+sAQBABEAsAQGABkAsAQKACkAsAQQADEAsAQQADkAsAQQAEEAsAQQAEkAsAQQAFEAsAQQAFkAsAQQ
+AGEAsAQQAGkAsAQGAJEAsAQGALkAsAQVAMkAsAQGAHEAoQUtANEAggUyANkA6AM3AOEAHwM9AOkA
+AQBBAPkA9ABGAPEAyQVKAPEAyQVQAPEAwgVXAAkBBgZdABEB6gAQABkBaQEGANEAtwVjAIEAgABp
+ACEBpgRtANEA4wUBAHEAsAQGAJkAsAQGACkBswB2ACkBEQZ/AKEAsASFAMEAsAQGAAgAFACfAAgA
+GACkACkAcwAMAS4ACwDkAC4AEwDtAC4AGwAMAS4AIwAVAS4AKwA+AS4AMwA+AS4AOwA+AS4AQwAV
+AS4ASwBEAS4AUwA+AS4AWwBbAUMAYwCkAEkAcwAMAWEAewCkAGMAawCkABsAAwABAAQAAwAAAGoE
+1QAAAC0B2gAAANsF3wACAAQAAwACAAUABQABAAYABQACAAcABwAEgAAAAQAAAJgiL4MAAAAAAAAJ
+AAAABAAAAAAAAAAAAAAAjQBnAAAAAAAPAAAAAAAAAAAAAACWAFADAAAAAAQAAAAAAAAAAAAAAI0A
+8QMAAAAADwAAAAAAAAAAAAAAlgBAAAAAAAAAAAAAAQAAAAEFAAAFAAIAAAAAVG9JbnQzMgBTVF9h
+N2I0MTZkYTcwMWY0Y2E1YjgzY2ZjM2ViNTFhNjQ2MgA8TW9kdWxlPgBTeXN0ZW0uSU8ATWljcm9z
+b2Z0LlNxbFNlcnZlci5NYW5hZ2VkRFRTAHZhbHVlX18AbXNjb3JsaWIAZGVmYXVsdEluc3RhbmNl
+AGdldF9NZXNzYWdlAFZhcmlhYmxlAElEaXNwb3NhYmxlAFJ1bnRpbWVUeXBlSGFuZGxlAEdldFR5
+cGVGcm9tSGFuZGxlAEZpbGUATWljcm9zb2Z0LlNxbFNlcnZlci5EdHMuUnVudGltZQBXcml0ZUxp
+bmUAZ2V0X05ld0xpbmUAVHlwZQBGYWlsdXJlAGdldF9DdWx0dXJlAHNldF9DdWx0dXJlAHJlc291
+cmNlQ3VsdHVyZQBWU1RBUlRTY3JpcHRPYmplY3RNb2RlbEJhc2UAQXBwbGljYXRpb25TZXR0aW5n
+c0Jhc2UARGlzcG9zZQBFZGl0b3JCcm93c2FibGVTdGF0ZQBDb21waWxlckdlbmVyYXRlZEF0dHJp
+YnV0ZQBEZWJ1Z2dlck5vblVzZXJDb2RlQXR0cmlidXRlAERlYnVnZ2FibGVBdHRyaWJ1dGUARWRp
+dG9yQnJvd3NhYmxlQXR0cmlidXRlAEFzc2VtYmx5VGl0bGVBdHRyaWJ1dGUAQXNzZW1ibHlUcmFk
+ZW1hcmtBdHRyaWJ1dGUAVGFyZ2V0RnJhbWV3b3JrQXR0cmlidXRlAEFzc2VtYmx5Q29uZmlndXJh
+dGlvbkF0dHJpYnV0ZQBBc3NlbWJseURlc2NyaXB0aW9uQXR0cmlidXRlAENvbXBpbGF0aW9uUmVs
+YXhhdGlvbnNBdHRyaWJ1dGUAQXNzZW1ibHlQcm9kdWN0QXR0cmlidXRlAEFzc2VtYmx5Q29weXJp
+Z2h0QXR0cmlidXRlAFNTSVNTY3JpcHRUYXNrRW50cnlQb2ludEF0dHJpYnV0ZQBBc3NlbWJseUNv
+bXBhbnlBdHRyaWJ1dGUAUnVudGltZUNvbXBhdGliaWxpdHlBdHRyaWJ1dGUAZ2V0X1ZhbHVlAHZh
+bHVlAFN5c3RlbS5SdW50aW1lLlZlcnNpb25pbmcAU3RyaW5nAE1pY3Jvc29mdC5TcWxTZXJ2ZXIu
+U2NyaXB0VGFzawBNaWNyb3NvZnQuU3FsU2VydmVyLkR0cy5UYXNrcy5TY3JpcHRUYXNrAFNjcmlw
+dE9iamVjdE1vZGVsAFN5c3RlbS5Db21wb25lbnRNb2RlbABTVF9hN2I0MTZkYTcwMWY0Y2E1Yjgz
+Y2ZjM2ViNTFhNjQ2Mi5kbGwAZ2V0X0l0ZW0AU3lzdGVtAEVudW0AcmVzb3VyY2VNYW4AU2NyaXB0
+TWFpbgBTeXN0ZW0uQ29uZmlndXJhdGlvbgBTeXN0ZW0uR2xvYmFsaXphdGlvbgBTeXN0ZW0uUmVm
+bGVjdGlvbgBFeGNlcHRpb24AQ3VsdHVyZUluZm8AZ2V0X1Jlc291cmNlTWFuYWdlcgBFdmVudHNP
+YmplY3RXcmFwcGVyAFN0cmVhbVdyaXRlcgBUZXh0V3JpdGVyAEZpcmVFcnJvcgAuY3RvcgAuY2N0
+b3IAU3lzdGVtLkRpYWdub3N0aWNzAFN5c3RlbS5SdW50aW1lLkNvbXBpbGVyU2VydmljZXMAU3lz
+dGVtLlJlc291cmNlcwBTVF9hN2I0MTZkYTcwMWY0Y2E1YjgzY2ZjM2ViNTFhNjQ2Mi5Qcm9wZXJ0
+aWVzLlJlc291cmNlcy5yZXNvdXJjZXMARGVidWdnaW5nTW9kZXMAU1RfYTdiNDE2ZGE3MDFmNGNh
+NWI4M2NmYzNlYjUxYTY0NjIuUHJvcGVydGllcwBnZXRfVmFyaWFibGVzAFNldHRpbmdzAFN1Y2Nl
+c3MAZ2V0X0R0cwBTY3JpcHRSZXN1bHRzAGdldF9FdmVudHMAQ29uY2F0AEZvcm1hdABPYmplY3QA
+Z2V0X0RlZmF1bHQAc2V0X1Rhc2tSZXN1bHQARW52aXJvbm1lbnQAQ29udmVydABBcHBlbmRUZXh0
+AGdldF9Bc3NlbWJseQAAAAAhVQBzAGUAcgBfAEMAbwBsAHUAbQBuAEMAbwB1AG4AdAAAF0gAYQBz
+AEkARABDAG8AbAB1AG0AbgAAH0gAYQBzAFUAcwBlAHIASQBEAEMAbwBsAHUAbQBuAAAjSABhAHMA
+RgB1AGwAbABOAGEAbQBlAEMAbwBsAHUAbQBuAAAZSABhAHMAQQBnAGUAQwBvAGwAdQBtAG4AAB1I
+AGEAcwBFAG0AYQBpAGwAQwBvAGwAdQBtAG4AADNIAGEAcwBSAGUAZwBpAHMAdAByAGEAdABpAG8A
+bgBEAGEAdABlAEMAbwBsAHUAbQBuAAAtSABhAHMATABhAHMAdABMAG8AZwBpAG4ARABhAHQAZQBD
+AG8AbAB1AG0AbgAALUgAYQBzAFAAdQByAGMAaABhAHMAZQBUAG8AdABhAGwAQwBvAGwAdQBtAG4A
+ADVIAGEAcwBSAGUAYwBvAHIAZABMAGEAcwB0AFUAcABkAGEAdABlAGQAQwBvAGwAdQBtAG4AADNT
+AGMAaABlAG0AYQAgAHYAYQBsAGkAZABhAHQAaQBvAG4AIABmAGEAaQBsAGUAZAAhAAAxRQB4AHAA
+ZQBjAHQAZQBkACAAYwBvAGwAdQBtAG4AIABjAG8AdQBuAHQAOgAgADkAADFBAGMAdAB1AGEAbAAg
+AGMAbwBsAHUAbQBuACAAYwBvAHUAbgB0ADoAIAB7ADAAfQAAgcNIAGEAcwBJAEQAQwBvAGwAdQBt
+AG4AOgAgAHsAMAB9ACwAIABIAGEAcwBVAHMAZQByAEkARABDAG8AbAB1AG0AbgA6ACAAewAxAH0A
+LAAgAEgAYQBzAEYAdQBsAGwATgBhAG0AZQBDAG8AbAB1AG0AbgA6ACAAewAyAH0ALAAgAEgAYQBz
+AEEAZwBlAEMAbwBsAHUAbQBuADoAIAB7ADMAfQAsACAASABhAHMARQBtAGEAaQBsAEMAbwBsAHUA
+bQBuADoAIAB7ADQAfQAsACAASABhAHMAUgBlAGcAaQBzAHQAcgBhAHQAaQBvAG4ARABhAHQAZQBD
+AG8AbAB1AG0AbgA6ACAAewA1AH0ALAAgAEgAYQBzAEwAYQBzAHQATABvAGcAaQBuAEQAYQB0AGUA
+QwBvAGwAdQBtAG4AOgAgAHsANgB9ACwAIABIAGEAcwBQAHUAcgBjAGgAYQBzAGUAVABvAHQAYQBs
+AEMAbwBsAHUAbQBuADoAIAB7ADcAfQAsACAASABhAHMAUgBlAGMAbwByAGQATABhAHMAdABVAHAA
+ZABhAHQAZQBkAEMAbwBsAHUAbQBuADoAIAB7ADgAfQAAgIlFADoAXABLAG8AcgBlAEEAcwBzAGkA
+ZwBuAG0AZQBuAHQAXwBIAGEAcgByAHkAXwBaAGgAbwB1AFwATABvAGcAcwBcAEQAYQB0AGEAYgBh
+AHMAZQBfAHMAYwBoAGUAbQBhAF8AdgBhAGwAaQBkAGEAdABpAG8AbgBfAGwAbwBnAC4AdAB4AHQA
+ABtFAHIAcgBvAHIAIABMAG8AZwBnAGkAbgBnAAABAHFTAFQAXwBhADcAYgA0ADEANgBkAGEANwAw
+ADEAZgA0AGMAYQA1AGIAOAAzAGMAZgBjADMAZQBiADUAMQBhADYANAA2ADIALgBQAHIAbwBwAGUA
+cgB0AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMAAAAAAHxu+CPT1zJGqkyytIey6HQABCABAQgD
+IAABBSABARERBCABAQ4FIAEBEVkRBw0ICAgICAgICAgIDhI9EkEEIAASaQQgABJtBSABEnEcAyAA
+HAQAAQgcAwAADgUAAg4OHAYAAg4OHRwFAAEOHQ4FAAESPQ4FIAASgJEDIAAOCCAFAggODg4ICAAB
+EoCVEYCZBSAAEoCdByACAQ4SgJ0It3pcVhk04IkIiYRdzYCAzJEEAAAAAAQBAAAAAwYSUQMGElUD
+BhIQAgYIAwYRFAQAABJRBAAAElUFAAEBElUEAAASEAMAAAEECAASUQQIABJVBAgAEhAIAQAIAAAA
+AAAeAQABAFQCFldyYXBOb25FeGNlcHRpb25UaHJvd3MBCAEAAgAAAAAAKAEAI1NUX2E3YjQxNmRh
+NzAxZjRjYTViODNjZmMzZWI1MWE2NDYyAAAFAQAAAAAWAQARQ29weXJpZ2h0IEAgIDIwMjQAAEkB
+ABouTkVURnJhbWV3b3JrLFZlcnNpb249djQuNwEAVA4URnJhbWV3b3JrRGlzcGxheU5hbWUSLk5F
+VCBGcmFtZXdvcmsgNC43AAAAtAAAAM7K774BAAAAkQAAAGxTeXN0ZW0uUmVzb3VyY2VzLlJlc291
+cmNlUmVhZGVyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1
+YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkjU3lzdGVtLlJlc291cmNlcy5SdW50aW1lUmVz
+b3VyY2VTZXQCAAAAAAAAAAAAAABQQURQQURQtAAAAKg1AAAAAAAAAAAAAMI1AAAAIAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAC0NQAAAAAAAAAAAAAAAF9Db3JEbGxNYWluAG1zY29yZWUuZGxsAAAAAAD/
+JQAgABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAABABAAAAAYAACAAAAAAAAAAAAAAAAAAAABAAEAAAAwAACAAAAAAAAAAAAAAAAAAAABAAAAAABI
+AAAAWEAAABoEAAAAAAAAAAAAABoENAAAAFYAUwBfAFYARQBSAFMASQBPAE4AXwBJAE4ARgBPAAAA
+AAC9BO/+AAABAAAAAQAvg5giAAABAC+DmCI/AAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAAAAARAAA
+AAEAVgBhAHIARgBpAGwAZQBJAG4AZgBvAAAAAAAkAAQAAABUAHIAYQBuAHMAbABhAHQAaQBvAG4A
+AAAAAAAAsAR6AwAAAQBTAHQAcgBpAG4AZwBGAGkAbABlAEkAbgBmAG8AAABWAwAAAQAwADAAMAAw
+ADAANABiADAAAAAaAAEAAQBDAG8AbQBtAGUAbgB0AHMAAAAAAAAAIgABAAEAQwBvAG0AcABhAG4A
+eQBOAGEAbQBlAAAAAAAAAAAAcAAkAAEARgBpAGwAZQBEAGUAcwBjAHIAaQBwAHQAaQBvAG4AAAAA
+AFMAVABfAGEANwBiADQAMQA2AGQAYQA3ADAAMQBmADQAYwBhADUAYgA4ADMAYwBmAGMAMwBlAGIA
+NQAxAGEANgA0ADYAMgAAAD4ADwABAEYAaQBsAGUAVgBlAHIAcwBpAG8AbgAAAAAAMQAuADAALgA4
+ADgANQA2AC4AMwAzADUAOAAzAAAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAAAFMA
+VABfAGEANwBiADQAMQA2AGQAYQA3ADAAMQBmADQAYwBhADUAYgA4ADMAYwBmAGMAMwBlAGIANQAx
+AGEANgA0ADYAMgAuAGQAbABsAAAASAASAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0AAAA
+QwBvAHAAeQByAGkAZwBoAHQAIABAACAAIAAyADAAMgA0AAAAKgABAAEATABlAGcAYQBsAFQAcgBh
+AGQAZQBtAGEAcgBrAHMAAAAAAAAAAAB4ACgAAQBPAHIAaQBnAGkAbgBhAGwARgBpAGwAZQBuAGEA
+bQBlAAAAUwBUAF8AYQA3AGIANAAxADYAZABhADcAMAAxAGYANABjAGEANQBiADgAMwBjAGYAYwAz
+AGUAYgA1ADEAYQA2ADQANgAyAC4AZABsAGwAAABoACQAAQBQAHIAbwBkAHUAYwB0AE4AYQBtAGUA
+AAAAAFMAVABfAGEANwBiADQAMQA2AGQAYQA3ADAAMQBmADQAYwBhADUAYgA4ADMAYwBmAGMAMwBl
+AGIANQAxAGEANgA0ADYAMgAAAEIADwABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAAADEA
+LgAwAC4AOAA4ADUANgAuADMAMwA1ADgAMwAAAAAARgAPAAEAQQBzAHMAZQBtAGIAbAB5ACAAVgBl
+AHIAcwBpAG8AbgAAADEALgAwAC4AOAA4ADUANgAuADMAMwA1ADgAMwAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAwAAADUNQAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
+        </ScriptProject>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
       DTS:refId="Package\Validate And Loading CSV File to Staging Table"
       DTS:CreationName="STOCK:FOREACHLOOP"
       DTS:Description="Foreach Loop Container"
@@ -5453,16 +6265,656 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           DTS:VariableName="User::FilePath" />
       </DTS:ForEachVariableMappings>
     </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Validate The Database Schema"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{7B6657C3-6DFF-4615-BE00-5619CF2C2D6D}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Validate The Database Schema"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Validate The Database Schema\Conditional Split"
+              componentClassID="Microsoft.ConditionalSplit"
+              contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
+              name="Conditional Split"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Validate The Database Schema\Conditional Split.Inputs[Conditional Split Input]"
+                  description="Input to the Conditional Split Transformation"
+                  name="Conditional Split Input">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Validate The Database Schema\Conditional Split.Outputs[ColumnCount]"
+                  description="Output 1 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="ColumnCount"
+                  synchronousInputId="Package\Validate The Database Schema\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">@[ColumnCount] == 9</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">@ColumnCount == 9</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">0</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Validate The Database Schema\Conditional Split.Outputs[HasIDColumn]"
+                  description="Output 2 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="HasIDColumn"
+                  synchronousInputId="Package\Validate The Database Schema\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">@[HasIDColumn] == 1</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">@HasIDColumn == 1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">1</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Validate The Database Schema\Conditional Split.Outputs[HasUserIDColumn]"
+                  description="Output 3 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="HasUserIDColumn"
+                  synchronousInputId="Package\Validate The Database Schema\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">@[HasUserIDColumn] == 1</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">@HasUserIDColumn == 1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">2</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Validate The Database Schema\Conditional Split.Outputs[HasFullNameColumn]"
+                  description="Output 4 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="HasFullNameColumn"
+                  synchronousInputId="Package\Validate The Database Schema\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">@[HasFullNameColumn] == 1</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">@HasFullNameColumn == 1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">3</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Validate The Database Schema\Conditional Split.Outputs[HasAgeColumn]"
+                  description="Output 5 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="HasAgeColumn"
+                  synchronousInputId="Package\Validate The Database Schema\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">@[HasAgeColumn] == 1</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">@HasAgeColumn == 1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">4</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Validate The Database Schema\Conditional Split.Outputs[HasEmailColumn]"
+                  description="Output 6 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="HasEmailColumn"
+                  synchronousInputId="Package\Validate The Database Schema\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">@[HasEmailColumn] == 1</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">@HasEmailColumn == 1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">5</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Validate The Database Schema\Conditional Split.Outputs[HasRegistrationDateColumn]"
+                  description="Output 7 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="HasRegistrationDateColumn"
+                  synchronousInputId="Package\Validate The Database Schema\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">@[HasRegistrationDateColumn] == 1</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">@HasRegistrationDateColumn == 1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">6</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Validate The Database Schema\Conditional Split.Outputs[HasLastLoginDateColumn]"
+                  description="Output 8 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="HasLastLoginDateColumn"
+                  synchronousInputId="Package\Validate The Database Schema\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">@[HasLastLoginDateColumn] == 1</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">@HasLastLoginDateColumn == 1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">7</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Validate The Database Schema\Conditional Split.Outputs[HasPurchaseTotalColumn]"
+                  description="Output 9 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="HasPurchaseTotalColumn"
+                  synchronousInputId="Package\Validate The Database Schema\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">@[HasPurchaseTotalColumn] == 1</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">@HasPurchaseTotalColumn == 1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">8</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Validate The Database Schema\Conditional Split.Outputs[HasRecordLastUpdatedColumn]"
+                  description="Output 10 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="HasRecordLastUpdatedColumn"
+                  synchronousInputId="Package\Validate The Database Schema\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">@[HasRecordLastUpdatedColumn] == 1</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">@HasRecordLastUpdatedColumn == 1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">9</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Validate The Database Schema\Conditional Split.Outputs[Conditional Split Default Output]"
+                  description="Default Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  name="Conditional Split Default Output"
+                  synchronousInputId="Package\Validate The Database Schema\Conditional Split.Inputs[Conditional Split Input]">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      name="IsDefaultOut">true</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Validate The Database Schema\Conditional Split.Outputs[Conditional Split Error Output]"
+                  description="Error Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Conditional Split Error Output"
+                  synchronousInputId="Package\Validate The Database Schema\Conditional Split.Inputs[Conditional Split Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Validate The Database Schema\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Validate The Database Schema\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Validate The Database Schema\OLE DB Source"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="OLE DB Source"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[prod].[Users]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor, Microsoft.DataTransformationServices.Controls, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Validate The Database Schema\OLE DB Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.KoreAssignment_Harry_Zhou.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.KoreAssignment_Harry_Zhou.sa]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[ID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[ID]"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[ID]"
+                      name="ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[UserID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[UserID]"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[UserID]"
+                      name="UserID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[FullName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[FullName]"
+                      length="255"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[FullName]"
+                      name="FullName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[Age]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Age]"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[Age]"
+                      name="Age"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[Email]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Email]"
+                      length="255"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[Email]"
+                      name="Email"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[RegistrationDate]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[RegistrationDate]"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[RegistrationDate]"
+                      name="RegistrationDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[LastLoginDate]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LastLoginDate]"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[LastLoginDate]"
+                      name="LastLoginDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[PurchaseTotal]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PurchaseTotal]"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[PurchaseTotal]"
+                      name="PurchaseTotal"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[RecordLastUpdated]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[RecordLastUpdated]"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].Columns[RecordLastUpdated]"
+                      name="RecordLastUpdated"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[ID]"
+                      dataType="i4"
+                      name="ID" />
+                    <externalMetadataColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[UserID]"
+                      dataType="i4"
+                      name="UserID" />
+                    <externalMetadataColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[FullName]"
+                      dataType="wstr"
+                      length="255"
+                      name="FullName" />
+                    <externalMetadataColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Age]"
+                      dataType="i4"
+                      name="Age" />
+                    <externalMetadataColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Email]"
+                      dataType="wstr"
+                      length="255"
+                      name="Email" />
+                    <externalMetadataColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[RegistrationDate]"
+                      dataType="dbDate"
+                      name="RegistrationDate" />
+                    <externalMetadataColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[LastLoginDate]"
+                      dataType="dbDate"
+                      name="LastLoginDate" />
+                    <externalMetadataColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[PurchaseTotal]"
+                      dataType="r8"
+                      name="PurchaseTotal" />
+                    <externalMetadataColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[RecordLastUpdated]"
+                      dataType="dbTimeStamp"
+                      name="RecordLastUpdated" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ID]"
+                      dataType="i4"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ID]"
+                      name="ID" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[UserID]"
+                      dataType="i4"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[UserID]"
+                      name="UserID" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[FullName]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[FullName]"
+                      name="FullName" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Age]"
+                      dataType="i4"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Age]"
+                      name="Age" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Email]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[Email]"
+                      name="Email" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[RegistrationDate]"
+                      dataType="dbDate"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[RegistrationDate]"
+                      name="RegistrationDate" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LastLoginDate]"
+                      dataType="dbDate"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[LastLoginDate]"
+                      name="LastLoginDate" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PurchaseTotal]"
+                      dataType="r8"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[PurchaseTotal]"
+                      name="PurchaseTotal" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[RecordLastUpdated]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[RecordLastUpdated]"
+                      name="RecordLastUpdated" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Validate The Database Schema.Paths[OLE DB Source Output]"
+              endId="Package\Validate The Database Schema\Conditional Split.Inputs[Conditional Split Input]"
+              name="OLE DB Source Output"
+              startId="Package\Validate The Database Schema\OLE DB Source.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
-      DTS:DTSID="{75F3FF8E-2EAA-49CC-A01A-3461A95F0EBC}"
+      DTS:DTSID="{050E8217-FE2C-42C9-8811-14890C10E20C}"
       DTS:From="Package\Validate And Loading CSV File to Staging Table"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
+      DTS:To="Package\Get The Database Schema" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{F876AAE2-B29C-45D7-8810-C5D268E4C000}"
+      DTS:From="Package\Get The Database Schema"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 1"
+      DTS:To="Package\Validate The Database Schema" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{3BE4FCFD-0CB8-41DF-A7A8-38A6A1A40C6E}"
+      DTS:From="Package\Validate The Database Schema"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 2"
       DTS:To="Package\Data Clean and Import to Prod Table" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{2B1F999E-96F9-44E5-9197-F51D84D1212D}"
+      DTS:From="Package\Validate The Database Schema"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 3"
+      DTS:To="Package\Output Error Log"
+      DTS:Value="1" />
   </DTS:PrecedenceConstraints>
   <DTS:EventHandlers>
     <DTS:EventHandler
@@ -5498,33 +6950,33 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="289,42"
           Id="Package\Data Clean and Import to Prod Table"
-          TopLeft="580.833310253091,120.499994354589" />
+          TopLeft="281.9999888738,310.857127486444" />
         <NodeLayout
           Size="181,42"
           Id="Package\Validate And Loading CSV File to Staging Table\Validate CSV File"
-          TopLeft="84.8333271410733,22.9999960150039" />
+          TopLeft="48.9999952316286,22.0714246338729" />
         <NodeLayout
           Size="277,42"
           Id="Package\Validate And Loading CSV File to Staging Table\Loading CSV File to Staging Table"
-          TopLeft="36.4999957283339,102.85713479227" />
+          TopLeft="5.66666362020715,103.785706173401" />
         <EdgeLayout
           Id="Package\Validate And Loading CSV File to Staging Table.PrecedenceConstraints[Constraint]"
-          TopLeft="175.166661434704,64.9999960150039">
+          TopLeft="141.833329425918,64.0714246338729">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,37.857138777266"
+              EndConnector="0,39.714281539528"
               Start="0,0"
-              End="0,30.357138777266">
+              End="0,32.214281539528">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,30.357138777266" />
+                    End="0,32.214281539528" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5536,30 +6988,146 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="378,201"
-          Size="378,244"
+          PanelSize="288,201"
+          Size="288,244"
           Id="Package\Validate And Loading CSV File to Staging Table"
-          TopLeft="143.333327637779,20.999998671668" />
+          TopLeft="113.333328829871,21.928570052799" />
+        <NodeLayout
+          Size="217,42"
+          Id="Package\Get The Database Schema"
+          TopLeft="520.333317902354,27.85714143393" />
+        <NodeLayout
+          Size="247,42"
+          Id="Package\Validate The Database Schema"
+          TopLeft="510.666651699279,117.928565403637" />
         <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="521.333327637779,142.249996513129">
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="631.499984800816,69.85714143393">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="59.4999826153125,0"
+              EndConnector="0,48.071423969707"
               Start="0,0"
-              End="51.9999826153125,0">
+              End="0,40.571423969707">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="51.9999826153125,0" />
+                    End="0,40.571423969707" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="634.166651699279,159.928565403637">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-207.666662825479,150.928562082807"
+              Start="0,0"
+              End="-207.666662825479,143.428562082807">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,71.4642810414035" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,71.4642810414035"
+                    Point2="0,75.4642810414035"
+                    Point3="-4,75.4642810414035" />
+                  <mssgle:LineSegment
+                    End="-203.666662825479,75.4642810414035" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-203.666662825479,75.4642810414035"
+                    Point2="-207.666662825479,75.4642810414035"
+                    Point3="-207.666662825479,79.4642810414035" />
+                  <mssgle:LineSegment
+                    End="-207.666662825479,143.428562082807" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="401.333328829871,143.928570052799">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="118.999989072482,-95.071428618869"
+              Start="0,0"
+              End="111.499989072482,-95.071428618869">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="55.4999945362411,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="55.4999945362411,0"
+                    Point2="59.4999945362411,0"
+                    Point3="59.4999945362411,-4" />
+                  <mssgle:LineSegment
+                    End="59.4999945362411,-91.071428618869" />
+                  <mssgle:CubicBezierSegment
+                    Point1="59.4999945362411,-91.071428618869"
+                    Point2="59.4999945362411,-95.071428618869"
+                    Point3="63.4999945362411,-95.071428618869" />
+                  <mssgle:LineSegment
+                    End="111.499989072482,-95.071428618869" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="175,42"
+          Id="Package\Output Error Log"
+          TopLeft="607.833309855727,311.999984060016" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 3]"
+          TopLeft="673.999985032612,159.928565403637">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="21.3333248231152,152.071418656379"
+              Start="0,0"
+              End="21.3333248231152,144.571418656379">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,57.4158102699133" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,57.4158102699133"
+                    Point2="0,61.4158102699133"
+                    Point3="4,61.4158102699133" />
+                  <mssgle:LineSegment
+                    End="17.3333248231152,61.4158102699133" />
+                  <mssgle:CubicBezierSegment
+                    Point1="17.3333248231152,61.4158102699133"
+                    Point2="21.3333248231152,61.4158102699133"
+                    Point3="21.3333248231152,65.4158102699133" />
+                  <mssgle:LineSegment
+                    End="21.3333248231152,144.571418656379" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-4.57468524469242,66.4158102699133,30.4826953125,9.7490234375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -6035,5 +7603,56 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <TaskHost
+    design-time-name="Package\Validate The Database Schema">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="157,42"
+          Id="Package\Validate The Database Schema\OLE DB Source"
+          TopLeft="294,45" />
+        <NodeLayout
+          Size="181,42"
+          Id="Package\Validate The Database Schema\Conditional Split"
+          TopLeft="286,139" />
+        <EdgeLayout
+          Id="Package\Validate The Database Schema.Paths[OLE DB Source Output]"
+          TopLeft="374.5,87">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,52"
+              Start="0,0"
+              End="0,44.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Validate The Database Schema\OLE DB Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
