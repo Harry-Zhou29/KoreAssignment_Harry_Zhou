@@ -73,6 +73,7 @@ END
 
 ## Additional Notes:
 - Before loading the CSV file into the Staging table, a validation process is applied to ensure the CSV file format is correct. If there are any changes to the column names or additional columns in the CSV file, this validation process will automatically generate log files in the Logs repository. These log files provide detailed information for review and verification purposes.
+- A database schema validation process is also implemented before importing the clean data into the destination database. If the database schema remains unchanged, the data is successfully imported into the destination database. However, if the schema validation fails, indicating changes in the schema, error logs are generated in the Logs repository to facilitate further investigation and resolution.
 - During the loading of the CSV file into the Staging table, the following conversions are applied:
 
 1. **Age Column:**
